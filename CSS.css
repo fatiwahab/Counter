@@ -1,0 +1,93 @@
+body {
+    background-image: url('Train.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#main{
+    position: fixed;
+    background-color: #f0f8ff;
+    min-width: 300px;
+    min-height: 600px;
+    width: 25%;
+    height: 40%;
+    margin-left: 50px;
+    margin-top: 50px;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+#heading {
+    text-align: center;
+    color: #244d77;
+    font-size: 36px;
+}
+
+#counter_value{
+    text-align: center;
+    color: red;
+    font-size: 50px;
+}
+
+#button-container {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+}
+
+#count-button{
+    background-color: #244d77;
+    color:#f0f8ff;
+    font-size: larger;
+    padding: 2%;
+    min-height: 50px;
+    min-width: 200px;
+    max-width: 250px;
+    margin-bottom: 10px;
+    
+}
+#reset-button{
+    background-color: #244d77;
+    color:#f0f8ff;
+    font-size: larger;
+    padding: 2%;
+    min-height: 50px;
+    max-width: 250px;
+    margin-bottom: 10px;
+    
+}
+#save-button{
+    background-color: #244d77;
+    color:#f0f8ff;
+    font-size: larger;
+    padding: 2%;
+    min-height: 50px;
+    max-width: 250px;
+    margin-bottom: 10px;
+}
+#clear-button{
+    background-color: #244d77;
+    color:#f0f8ff;
+    font-size: larger;
+    padding: 2%;
+    min-height: 50px;
+    max-width: 250px;
+    margin-bottom: 10px;
+}
+#saved-items{
+    min-width: 80%;
+    height: 200px;
+    background-color: #ccc;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#previous-items{
+    text-align: center;
+    color: #244d77;
+}
